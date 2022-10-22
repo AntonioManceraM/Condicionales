@@ -1,0 +1,23 @@
+public class condicional5 {
+    public static void main(String[] args) {
+        var estacion = "PRIMAVERA";
+        switch (estacion){
+            case "VERANO":
+            System.out.println("es verano");
+            break;
+            case "INVIERNO":
+                System.out.println("es invierno");
+                break;
+
+            case "OTOÑO":
+                System.out.println("Es otoño");
+                break;
+
+            case "PRIMAVERA":
+                System.out.println("Es primavera");
+                break;
+            default:
+                System.out.println("ingresa una estacion del año");
+        }
+    }
+}
