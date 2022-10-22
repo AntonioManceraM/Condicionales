@@ -5,10 +5,10 @@ public class Main {
             System.out.println("cero");
         }
         else if (numero >= 1){
-            System.out.println("mayor a cero");
+            System.out.println("numero positivo");
         }
         else {
-            System.out.println("menor a cero");
+            System.out.println("numero negativo");
         }
 
     }
